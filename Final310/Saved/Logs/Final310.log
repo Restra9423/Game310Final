@@ -1169,3 +1169,49 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.10.29-19.56.31:818][  8]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5.506228, Update Interval: 353.992126
 [2025.10.29-19.56.35:051][ 19]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_0
 [2025.10.29-19.56.35:290][ 21]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_1
+[2025.10.29-19.58.20:629][781]LogDerivedDataCache: C:/Users/pikac/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.10.29-19.58.20:652][782]LogSlate: Window 'Levels' being destroyed
+[2025.10.29-19.58.20:664][782]LogSlate: Window 'Levels' being destroyed
+[2025.10.29-19.59.29:269][887]LogShaderCompilers: Display: ================================================
+[2025.10.29-19.59.29:269][887]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.10.29-19.59.29:269][887]LogShaderCompilers: Display: Total job queries 2,527, among them cache hits 640 (25.33%), DDC hits 1,802 (71.31%), Duplicates 84 (3.32%)
+[2025.10.29-19.59.29:269][887]LogShaderCompilers: Display: Tracking 1,803 distinct input hashes that result in 1,134 distinct outputs (62.90%)
+[2025.10.29-19.59.29:269][887]LogShaderCompilers: Display: RAM used: 11.55 MiB of 3.20 GiB budget. Usage: 0.35%
+[2025.10.29-19.59.29:269][887]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.10.29-19.59.29:270][887]LogShaderCompilers: Display: Shaders Compiled: 1
+[2025.10.29-19.59.29:270][887]LogShaderCompilers: Display: Jobs assigned 1, completed 1 (100%)
+[2025.10.29-19.59.29:270][887]LogShaderCompilers: Display: Time job spent in pending queue: average 0.01 s, longest 0.01 s
+[2025.10.29-19.59.29:270][887]LogShaderCompilers: Display: Job execution time: average 1.12 s, max 1.12 s
+[2025.10.29-19.59.29:270][887]LogShaderCompilers: Display: Job life time (pending + execution): average 1.14 s, max 1.14
+[2025.10.29-19.59.29:270][887]LogShaderCompilers: Display: Shader code size: total 12.191 KiB, numShaders 1, average 12.191 KiB, min 12.191 KiB, max 12.191 KiB
+[2025.10.29-19.59.29:270][887]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 1.14 s
+[2025.10.29-19.59.29:270][887]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.09%
+[2025.10.29-19.59.29:270][887]LogShaderCompilers: Display: Jobs were issued in 1 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.10.29-19.59.29:270][887]LogShaderCompilers: Display: Average processing rate: 0.88 jobs/sec
+[2025.10.29-19.59.29:270][887]LogShaderCompilers: Display: Total thread time: 0.857 s
+[2025.10.29-19.59.29:270][887]LogShaderCompilers: Display: Total thread preprocess time: 40.105 s
+[2025.10.29-19.59.29:270][887]LogShaderCompilers: Display: Percentage time preprocessing: 4681.50%
+[2025.10.29-19.59.29:270][887]LogShaderCompilers: Display: Effective parallelization: 0.75 (times faster than compiling all shaders on one thread). Compare with number of workers: 16 - 0.047107
+[2025.10.29-19.59.29:270][887]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.10.29-19.59.29:270][887]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled    1 times, average 0.86 sec, max 0.86 sec, min 0.86 sec)
+[2025.10.29-19.59.29:270][887]LogShaderCompilers: Display:                    TVirtualTextureVSBaseColorNormalRoughness (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.10.29-19.59.29:270][887]LogShaderCompilers: Display:                                       TVirtualTextureVSMask4 (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.10.29-19.59.29:270][887]LogShaderCompilers: Display:                     TVirtualTextureVSBaseColorNormalSpecular (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.10.29-19.59.29:270][887]LogShaderCompilers: Display:                        FRayTracingDynamicGeometryConverterCS (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.10.29-19.59.29:270][887]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.10.29-19.59.29:270][887]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 100.00% of total time (compiled    1 times, average 0.86 sec, max 0.86 sec, min 0.86 sec)
+[2025.10.29-19.59.29:270][887]LogShaderCompilers: Display:                                       TVirtualTextureVSMask4 - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.10.29-19.59.29:270][887]LogShaderCompilers: Display:                     TVirtualTextureVSBaseColorNormalSpecular - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.10.29-19.59.29:270][887]LogShaderCompilers: Display:                        FRayTracingDynamicGeometryConverterCS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.10.29-19.59.29:270][887]LogShaderCompilers: Display:                                 TVirtualTexturePSWorldHeight - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.10.29-19.59.29:270][887]LogShaderCompilers: Display: === Material stats ===
+[2025.10.29-19.59.29:270][887]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.10.29-19.59.29:270][887]LogShaderCompilers: Display: Materials Translated:    142
+[2025.10.29-19.59.29:270][887]LogShaderCompilers: Display: Material Total Translate Time: 0.12 s
+[2025.10.29-19.59.29:270][887]LogShaderCompilers: Display: Material Translation Only: 0.04 s (33%)
+[2025.10.29-19.59.29:270][887]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2025.10.29-19.59.29:270][887]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2025.10.29-19.59.29:270][887]LogShaderCompilers: Display: ================================================
+[2025.10.29-20.02.25:504][460]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 359.527771
+[2025.10.29-20.02.25:638][468]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.29-20.02.25:638][468]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 359.645508, Update Interval: 315.007782
